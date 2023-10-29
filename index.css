@@ -1,0 +1,27 @@
+@font-face {
+    src:url(./Limits/Limits.ttf);
+    font-family: "Limits";
+    font-weight: 400;
+  }
+body {
+    background-image: url(./background.jpg);
+}
+
+h1 {
+    color:chartreuse;
+    font-size: 50px;
+    font-family: "Limits"
+}
+@media screen and (max-width: 614px) {
+    h1{
+        font-size: 35px;
+
+    }
+
+
+
+
+
+
+}
+
