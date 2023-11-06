@@ -5,12 +5,25 @@
   }
 body {
     background-image: url(./background.jpg);
+    display: flex;
+    flex-direction: column;
+
+}
+button {
+    
+    margin: 30px auto;
+    background-color: chartreuse;
+    border: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 60px;
 }
 
 h1 {
     color:chartreuse;
     font-size: 50px;
-    font-family: "Limits"
+    font-family: "Limits";
+    margin: 30px auto;
 }
 @media screen and (max-width: 614px) {
     h1{
